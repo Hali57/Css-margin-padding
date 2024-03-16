@@ -1,0 +1,92 @@
+
+body{
+    font-family:"Verdana, Geneva, Tahoma, sans-serif";
+    display: block;
+    align-items: center;
+    padding: 10px;
+    margin:10px;
+    
+  }
+  #header-resume{
+    text-align: center;
+    border: 2px solid #598392;
+    letter-spacing: 2px;
+    background-color: #598392;
+    width:100%;
+    color:antiquewhite;
+    padding:10px;
+    margin: 10px;
+    border-radius: 5px;
+    
+  }
+  #about-section{
+    text-align: center;
+    border: 2px solid #93c6d6;
+    letter-spacing: 2px;
+    background-color: #93c6d6;
+    width:100%;
+    color:antiquewhite;
+    padding:10px;
+    border-radius: 5px;
+    margin:5px;
+  
+    
+  }
+  #skills-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #82aeb1;
+    letter-spacing: 2px;
+    background-color: #82aeb1;
+    width:100%;
+    color:antiquewhite;
+    padding:10px;
+    border-radius: 5px;
+    margin:5px;
+  
+    
+  }
+  #contact-section{
+    text-align: center;
+    border: 2px solid #668586 ;
+    letter-spacing: 2px;
+    background-color: #668586;
+    width:100%;
+    color:antiquewhite;
+    padding:10px;
+    border-radius: 5px;
+    margin:5px;
+  
+    
+  }
+  ul{
+    margin-top: 0px;
+    list-style-type: none;
+    padding:0px;
+  }
+  li{
+    border:2px solid antiquewhite;
+    padding:10px;
+    margin-bottom: 5px;
+    border-radius:5px;
+  }
+  h1{
+    font-weight: bolder;
+  }
+  h2{
+    font-size: 25px;
+  }
+  @media only screen and (max-width:600px){
+    #skills-section{
+      flex-direction: column;
+      padding-top: 1px;
+    }
+    *{
+      margin:0px;
+      padding:0px;
+    }
+  
+  }
+  
